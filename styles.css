@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #2c3e50;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game-container {
+  position: relative;
+}
+
+canvas {
+  border: 3px solid #34495e;
+  background-color: #95a5a6;
+}
+
+.ui-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin-bottom: 10px;
+}
+
+.player-ui {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  width: 250px;
+}
+
+.resource-info {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.unit-buttons,
+.defense-buttons,
+.buff-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #7f8c8d;
+  cursor: not-allowed;
+}
+
+#game-over {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+#restart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#pause-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #f39c12;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  z-index: 10;
+}
+
+#pause-button:hover {
+  background-color: #e67e22;
+}
