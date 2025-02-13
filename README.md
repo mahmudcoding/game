@@ -16,3 +16,7 @@
   - **Abdulhafiz proposed:** A strategic tower defense game where players place and upgrade towers to defend their base against increasingly difficult waves of enemies.
   - **Mahmud proposed:** A shooter game where players control a tank, navigating a maze-like battlefield, destroying enemy tanks
   - ***Final decision:*** Merged both ideas into a single game concept.
+
+### February 13
+- Added team members to the github repository
+- Instructed team members how to make new branches and merge them
